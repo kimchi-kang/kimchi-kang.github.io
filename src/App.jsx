@@ -180,15 +180,6 @@ export function App() {
             About
           </a>
 
-          <a
-            className="nav-link external-link"
-            href={instagramUrl}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Instagram <span aria-hidden="true">↗</span>
-          </a>
-
           {isEditMode && (
             <section className="editor-panel" aria-label="사이트 관리">
               <h2>관리 모드</h2>
@@ -222,12 +213,8 @@ export function App() {
             <div className="about-copy">
               <p>A photographer.</p>
               <ul className="camera-list">
-                <li>SEOUL, KOREA</li>
                 <li>35MM FILM</li>
               </ul>
-              <a className="text-link" href={instagramUrl} target="_blank" rel="noreferrer">
-                @photographer <span aria-hidden="true">↗</span>
-              </a>
             </div>
           </section>
         ) : (
